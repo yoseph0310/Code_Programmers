@@ -4,7 +4,7 @@ import java.util.Collections;
 public class descending_String {
 
     public static void main(String[] args) {
-        Solution s = new Solution();
+        Solution_d s = new Solution_d();
         System.out.print(s.solution("Zbcdefg"));
 
         for (int i = 0; i < args.length; i++) {
@@ -14,7 +14,7 @@ public class descending_String {
     }
 
 }
-class Solution{
+class Solution_d{
     public String solution(String s) {
         Character [] arr = new Character[s.length()];
         for (int i = 0; i < arr.length; i++) {
